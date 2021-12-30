@@ -4,7 +4,7 @@
 <ul>
   <% @pages.each do |page| %>
     <li>
-      <%= page.title %>
+      <%= link_to page.title, page %>
     </li>
   <% end %>
 </ul>
