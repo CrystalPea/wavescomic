@@ -1,1 +1,10 @@
-<h1>Yay, this is where the comic will be :D !</h1>
+<h1>Waves</h1>
+<p>by Pea</p>
+
+<ul>
+  <% @pages.each do |page| %>
+    <li>
+      <%= page.title %>
+    </li>
+  <% end %>
+</ul>
